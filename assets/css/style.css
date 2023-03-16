@@ -538,6 +538,10 @@ ul li {
   color: var(--c-black);
 }
 
+.bx-menu-alt-left{
+  color: var(--c-black);
+}
+
 @media (min-width: 700px) {
   .bx-menu-alt-left {
     display: none;
