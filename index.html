@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/main.js" defer></script>
+    <title>Academlo Store</title>
+  </head>
+
+  <body>
+    <header class="header_show">
+      <nav class="nav_principal container">
+        <a href="" class="nav_logo">
+          <!-- <img src="./assets/img/header_icon.svg" alt="" /> -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 48.92 56.48"
+            class="nav_logo-icon"
+          >
+            <g>
+              <g>
+                <path
+                  d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z"
+                ></path>
+              </g>
+            </g>
+          </svg>
+          <span>STORE</span>
+        </a>
+
+        <ul class="mobile_menu">
+          <li>
+            <a href="#home" class="home-link">Home</a>
+          </li>
+          <li>
+            <a href="#products" class="products-link">Products</a>
+          </li>
+        </ul>
+
+        <div class="iconSets">
+          <i class="bx bx-moon" id="iconL"></i>
+          <i class="bx bx-cart-add">
+            <span class="amountProducts"></span>
+          </i>
+          <i class="bx bx-menu-alt-left"></i>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <section class="totalSection" id="home">
+        <div class="firstSection">
+          <div></div>
+          <div class="fsectionImg">
+            <img src="./assets/img/home.png" alt="img home" />
+          </div>
+        </div>
+        <div class="bodySection">
+          <h2 class="body_section-title">New Sweatshirt COLLECTIONS 2023</h2>
+          <p class="body_section-paragraph">
+            Latest arrival of the new Hanes Midweight Crewneck sweatshirt
+            imported from the 2022 series, with a modern design.
+          </p>
+          <p class="body_section-price">$14.00</p>
+          <a href="#products" class="body_section-btn">Show more</a>
+        </div>
+      </section>
+
+      <section class="products_items" id="products">
+        <div class="filter_products">
+          <div class="filter" data-filter="all">
+            <p>Show all</p>
+            <p>Show all products</p>
+          </div>
+          <div class="filter" data-filter="shirt">
+            <p>Shirt</p>
+            <p>7 products</p>
+          </div>
+          <div class="filter" data-filter="hoddie">
+            <p>Hoddie</p>
+            <p>6 products</p>
+          </div>
+          <div class="filter" data-filter="sweater">
+            <p>Sweater</p>
+            <p>5 products</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="content_products">
+      <div class="products" id="products"></div>
+    </div>
+
+    <div class="modal"></div>
+    <div class="cart">
+      <i class="bx bxs-x-circle close_cart"></i>
+      <div class="cart_products"></div>
+      <div class="cart_total">
+        <div class="cart_total--info">
+          <span class="info_total"></span>
+          <span class="info_amount"></span>
+        </div>
+        <button class="btn_buy">Comprar</button>
+      </div>
+    </div>
+
+    <footer>
+      <section class="footer_dad">
+        <div class="footer_information">
+          <h3 class="info_title">Our information</h3>
+          <ul>
+            <li>
+              <a href="#">Pasto Colombia</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer_information">
+          <h3 class="info_title">About us</h3>
+          <ul>
+            <li>
+              <a href="#">Support Center</a>
+            </li>
+            <li>
+              <a href="#">Customer Support</a>
+            </li>
+            <li>
+              <a href="#">About Us</a>
+            </li>
+            <li>
+              <a href="#">Copy Right</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer_information">
+          <h3 class="info_title">Product</h3>
+          <ul>
+            <li>
+              <a href="#">Hoodies</a>
+            </li>
+            <li>
+              <a href="#">Shirts</a>
+            </li>
+            <li>
+              <a href="#">About Us</a>
+            </li>
+            <li>
+              <a href="#">Sweatshirts</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer_information">
+          <h3 class="info_title">Social</h3>
+          <ul class="info_social">
+            <li>
+              <a href="#">
+                <i class="bx bxl-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="bx bxl-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="bx bxl-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <ul class="footer_style">
+        <li>
+          <i class="bx bxs-user-rectangle"></i>
+          VICTOR IBARRA BOLAÑOS
+        </li>
+
+        <li>
+          <i class="bx bxl-gmail"></i>
+          ibarravictor334@gmail.com
+        </li>
+
+        <li>
+          <i class="bx bxl-github"></i>
+          Github
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
