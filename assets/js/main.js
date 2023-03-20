@@ -339,6 +339,12 @@ async function main() {
     cart: JSON.parse(window.localStorage.getItem("cart")) || {},
   };
 
+  window.addEventListener('load', () => {
+    const contenedor_loader = document.querySelector('.cont')
+    contenedor_loader.style.opacity = 0
+    contenedor_loader.style.visibility = 'hidden'
+  })
+
   printProducts(db);
   handleShowCart();
   addToCartFromProducts(db);
