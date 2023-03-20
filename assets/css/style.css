@@ -429,6 +429,7 @@ div {
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
+  color: var(--c-black);
 }
 
 .cart_product--body-op {
